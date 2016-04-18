@@ -1,0 +1,21 @@
+{
+    "name": "sainsburys/food-scraper",
+    "description": "Test console project that scrapes page and returns JSON object with information",
+    "authors": [
+        {
+            "name": "Dmitry Kmita",
+            "email": "dmitry@kmita.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "kriswallsmith/buzz": "^0.15.0",
+        "symfony/console": "^3.0",
+        "symfony/dom-crawler": "^3.0",
+        "symfony/css-selector": "^3.0",
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-0": {"App\\": "src/"}
+    }
+}
